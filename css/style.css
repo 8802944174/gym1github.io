@@ -1,0 +1,222 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Muli', sans-serif;
+}
+html{
+	overflow-x: hidden;
+}
+.nav-style {
+	background-color: #a29bfe!important;
+}
+.nav-style a{
+	color: white!important;
+}
+.img-div{
+width: 100%;
+height: 90vh;
+}
+.img-div img{
+	width: 100%;
+	height: 100%;
+}
+.img-div{
+	position: relative;
+}
+.img-div span{
+	position: absolute;
+	top:50%;
+	left: 10%;
+}
+.img-text{
+	font-weight: bold;
+	font-size:40px;
+	color: yellow;
+
+}
+/*-------------------section-2-------------*/
+.main_header{
+	margin-top: 100px;
+}
+.right-side h1{
+	margin-top: 70px;
+}
+ img .circle{
+	animation:gocorona 3s linear infinite;
+}
+@keyframes gocorona{
+	0%{ transform: rotate(0); }
+	100%{ transform: rotate(360deg); }
+}
+
+.left-side img{
+	animation:heartbeat 5s linear infinite;
+}
+
+@keyframes heartbeat{
+	0%{
+		transform: scale(.75); 
+	}
+
+	20%{
+		transform: scale(1); 
+	}
+
+	40%{
+		transform: scale(.75); 
+	}
+
+	60%{
+		transform: scale(1); 
+	}
+
+	80%{
+		transform: scale(.75); 
+	}
+	100%{
+		transform: scale(1); 
+	}
+}
+
+/*---------------------section-2----------------*/
+
+.corona-update{
+	margin-bottom: 30px;
+}
+.corona-update h3{
+	color: #ff7675;
+}
+.corona-update h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+/*----------------section-4----------------------*/
+.sub-section{
+	background-color: #fbfafd;
+}
+/*------------------------------section-6-------------*/
+#section-6{
+	width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+    position: relative;
+    height: auto;
+
+}
+#section-6:before{
+	content: "";
+	position: absolute;
+	left:0;
+	top:0;
+	bottom: 0;
+	right:0;
+	background: linear-gradient(330deg, #667eea, #764ba2 55%, #fff 0%);
+    z-index: -1;
+
+}
+#section-6 p{
+	font-weight: bold;
+}
+#footer{
+	padding: 100px;
+	background:#efefef;
+	color:#013f7e;
+	height: auto;
+}
+
+#footer p{
+	text-align: left!important;
+}
+
+#footer .city{
+	margin-left:37px;
+}
+
+#footer .fa{
+	padding-right: 20px;
+	font-size:15px;
+}
+#mybtn{
+	bottom: 30px;
+	right:40px;
+	border:none;
+	outline:none;
+	background-color: #a29bfe;
+	color:white;
+	cursor:pointer;
+	padding:10px;
+	border-radius: 10px;
+	float: right;
+	position: fixed;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+#mybtn:hover{
+	background-color: #606060;
+}
+/*----------------------dice............*/
+
+#stayhome{
+	padding:100px 50px 100px 50px;
+	    background: linear-gradient(to bottom,#13547a   0%,#80d0c7 100%);
+	    margin-bottom: 10px;
+
+}
+.dice img{
+	width: 100px;
+height: 100px;
+}
+#ludo{
+	width: 70%;
+	text-align: center;
+	margin:auto;
+
+
+}
+.dice{
+	
+text-align: center;
+display: inline-block;
+}
+#ludo h3{
+	margin: 30px;
+	text-shadow: 5px 0 white;
+	font-size:4rem;
+	color:#f6b93b;
+	font-family: 'Acme', sans-serif;
+}
+#ludo p{
+	font-size: 2rem;
+	color:#00b894;
+	text-shadow: 1px 1px white;
+	font-family: 'Acme', sans-serif;
+
+}
+#ludo button{
+padding: 10px 30px;
+background-color:#ffff66;
+font-weight: bold;
+border:none;
+margin-top:30px;
+font-family: 'Acme', sans-serif;
+font-size: 20px;
+
+}
+
+
+
+/*----------------media quary-----------------------*/
+
+@media only screen and(max-width: 320px){
+.ppp h1{
+      font-size: 1rem;
+	}
+
+ .ppp p{
+ 	font-size: 0.5rem;
+ }	
+}
